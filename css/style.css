@@ -1,7 +1,7 @@
 body{
     max-width: 1200px;
     color: white;
-    background-color: #D9D9D9;
+    background-color: #edede9;
 }
 .nevkartya{
     background-color: #AA0202;
@@ -14,7 +14,7 @@ body{
     font-size: 30px;
 }
 .navigacio{
-    background-color: black;
+    background-color: #d6ccc2;
     border-radius: 20px;
     margin-left: 450px;
     width: 1000px;
@@ -30,6 +30,28 @@ body{
     gap: 40px;
 }
 .bemutatkozas{
-    margin-top: 200px;
-    background-color: black;
+    margin-top: 100px;
+    margin-left: 700px;
+    border-radius: 20px;
+    background-color: #d5bdaf;
+    text-align: center;
+    font-size: 70px;
+}
+.bemutatkozasLeiras{
+    background-color: #e3d5ca;
+    border-radius: 20px;
+    height: 400px;
+    padding: 10px;
+    font-size: 20px;
+    width: 1400px;
+}
+.container{
+    display: flex;
+}
+.kartya{
+    background-color: #d5bdaf;
+    width: 400px;
+    height: 35px;
+    padding: 20px;
+    margin-left: 100px;
 }
