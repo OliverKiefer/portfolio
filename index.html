@@ -28,12 +28,19 @@
         </div>
     </header>
     <section>
+        <nav>
+            
+        </nav>
         <div class="navigacio">
             <div class="menupontok">
-                <a href="#bemutatkozas" class="menupont">Bemutatkozás</a>
-                <a href="#keszsegek" class="menupont">Kézségek</a>
-                <a href="#projectek" class="menupont">Projectek</a>
-                <a href="" class="menupont">Kapcsolatok</a>
+                <nav>
+                    <ul class="manu">
+                        <li><a href="#bemutatkozas" class="menupont">Bemutatkozás</a></li>
+                        <li><a href="#keszsegek" class="menupont">Kézségek</a></li>
+                        <li><a href="#projectek" class="menupont">Projectek</a></li>
+                        <li><a href="" class="menupont">Kapcsolatok</a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
         
@@ -45,7 +52,7 @@
     </section>
     <section>
         <div class="bemutatkozasLeiras container">
-            <div>
+            <div class="container-fluid">
                 Sziasztok, Kis Péter vagyok, frontend fejlesztő és design rajongó.
                 Minden egy régi családi számítógéppel kezdődött, ahol órákig néztem a weboldalak forráskódját. <br>
                 A kíváncsiságom hamar csillapíthatatlan szenvedéllyé vált az online alkotás iránt.
@@ -110,6 +117,30 @@
             <p>Projectek</p>
         </div>
     </section>
+    <section class="keszsegek">
+        <article class="card">
+            <p class="nyelvLeiras">Ez a projekt a backend szolgáltatások és API-k automatizált, valamint manuális tesztelését mutatja be.</p>
+          <div class="image">
+            <img src="img/apiTesting.jfif" alt="html" />
+          </div>
+          <p class="nyelvLeiras">A célom az volt, hogy biztosítsam a végpontok (endpoints) megfelelő működését, biztonságát, válaszidejét és adatkonzisztenciáját, szimulálva a valós felhasználói forgatókönyveket.</p>
+        </article>
+        <article class="card">
+            <p class="nyelvLeiras">A projekt célja egy skálázható, robusztus és karbantartható tesztautomatizálási keretrendszer kiépítése volt a nulláról, amely minimalizálja a manuális tesztelési erőfeszítéseket, és felgyorsítja a kiadási (release) ciklusokat.</p>
+          <div class="image">
+            <img src="img/testAutomation.jfif" alt="html" />
+          </div>
+          <p class="nyelvLeiras">A rendszer integrálódik a CI/CD folyamatokba, biztosítva a folyamatos minőségellenőrzést minden egyes kódmódosításnál.</p>
+        </article>
+        <article class="card">
+            <p class="nyelvLeiras">Ebben a projektben egy natív mobilalkalmazás teljes körű minőségbiztosítási (QA) folyamatát vezettem végig iOS és Android platformokon.</p>
+          <div class="image">
+            <img src="img/mobilAppTesting.jfif" alt="html" />
+          </div>
+          <p class="nyelvLeiras">A cél az volt, hogy biztosítsam az alkalmazás stabil működését, a kiváló felhasználói élményt (UX), valamint a kritikus hibák kiszűrését a piaci bevezetés (release) előtt.</p>
+        </article>
+    </section>
+    
 </body>
 
 </html>
