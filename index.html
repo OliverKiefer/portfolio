@@ -13,7 +13,8 @@
 </head>
 
 <body>
-    <header class="nevkartya">
+  <div class="container">
+      <header class="nevkartya">
         <div class="fejleszoNev">
             <h2>
                 <p class="fejlesztoNeve">
@@ -52,8 +53,7 @@
     </section>
     <section>
         <div class="bemutatkozasLeiras container">
-            <div class="container-fluid">
-                Sziasztok, Kis Péter vagyok, frontend fejlesztő és design rajongó.
+                <p>Sziasztok, Kis Péter vagyok, frontend fejlesztő és design rajongó.
                 Minden egy régi családi számítógéppel kezdődött, ahol órákig néztem a weboldalak forráskódját. <br>
                 A kíváncsiságom hamar csillapíthatatlan szenvedéllyé vált az online alkotás iránt.
                 Az első bénácska HTML-oldalaktól hosszú út vezetett odáig, hogy ma már magabiztosan kódolok. <br>
@@ -64,10 +64,10 @@
                 Célom olyan projekteken dolgozni, amelyek inspirálnak és amikkel nap mint nap fejlődhetek.
                 Ma már büszkén mondhatom, hogy a szenvedélyem a hivatásommá vált. Azért dolgozom ezen a területen, mert hiszek abban, hogy egy jól megírt kód és egy átgondolt, esztétikus felület képes valódi értéket teremteni, megkönnyíteni az emberek életét és élménnyé tenni a neten eltöltött időt. Minden új projekt egy tiszta lap számomra – egy újabb lehetőség arra, hogy valami egyedit alkossak, ami nemcsak funkcionális, de szép is. <br> <br>
                 Ha nem a képernyőt bámulom, vagy éppen egy újabb kódrészleten agyalok, akkor valószínűleg egy jó sci-fi könyvet olvasok egy kávézó zugában, vagy a várost járom a fényképezőgépemmel, ami segít kitisztítani a fejemet, és friss inspirációt ad a következő webes projekthez.
-                Lépjünk kapcsolatba, és alkossunk együtt valami maradandót a digitális térben!
-            </div>
-            <img src="img/csavo.jpg" alt="" class="portolioKep">
+                Lépjünk kapcsolatba, és alkossunk együtt valami maradandót a digitális térben!</p>
+              <img src="img/csavo.jpg" alt="" class="portolioKep">
         </div>
+        
     </section>
     <section>
         <div class="bemutatkozas" id="keszsegek">
@@ -140,6 +140,35 @@
           <p class="nyelvLeiras">A cél az volt, hogy biztosítsam az alkalmazás stabil működését, a kiváló felhasználói élményt (UX), valamint a kritikus hibák kiszűrését a piaci bevezetés (release) előtt.</p>
         </article>
     </section>
+    <section class="newsletter" id="kapcsolatok">
+      <h2>IRATKOZZ FEL PLS</h2>
+      <p>Iratkozz fel hírlevelünkre és értesülj elsőként, hogy kapj 5% kedvezményt!</p>
+      <form class="newsletter-form">
+        <div class="form-row">
+          <input type="text" placeholder="lakhely*" id="lakhely" />
+          <input type="text" placeholder="telefonszám*" id="telefonszam"  />
+        </div>
+        <div class="form-row">
+          <input type="email" placeholder="E-mail cím*" id="email"  />
+        </div>
+        <div class="form-row">
+          <label>
+            <input type="checkbox"  />
+            Elmúltam 18 éves és elfogadom az <a href="#">adatvédelmi nyilatkozatot</a>.
+          </label>
+        </div>
+        <div class="form-row">
+          <label>
+            <input type="checkbox" />
+            Feliratkozom a hírlevélre
+          </label>
+        </div>
+        <button type="submit" class="subscribe-button">FELIRATKOZOM</button>
+        <button type="button" class="cancel-button">MÉGSE</button>
+      </form>
+    </section>
+  </div>
+    
     
 </body>
 
