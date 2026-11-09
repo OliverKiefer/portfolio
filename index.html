@@ -168,8 +168,39 @@
       </form>
     </section>
   </div>
+  <div class="form-card">
+            <div class="form-header">
+                <div class="profile-section">
+                    <img src="" alt="" class="profile-avatar">
+                    <div class="profile-text">
+                        <h3>Kiss Péter</h3>
+                        <span>Bejelentkező Portál</span>
+                    </div>
+                </div>
+                <img src="" alt="" class="form-logo">
+            </div>
     
+            <div class="form-body">
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" placeholder="peldanev@gmail.com">
+                </div>
     
+                <div class="input-group">
+                    <label for="jelszo">jelszó</label>
+                    <input type="text" id="jelszo" placeholder="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$">
+                </div>
+    
+                <div class="input-group">
+                    <label for="jelszoujra">jelszó újra</label>
+                    <input type="text" id="jelszoujra" placeholder="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$">
+                </div>
+    
+                <button class="btn btn-main" onclick="ellenorzes()">Bejelentkezés</button>
+            </div>
+        </div>
+
+<script src="js.js"></script>
 </body>
 
 </html>
